@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Button x:Name="buttonHome" Content="Button" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="200" Height="44" Template="{DynamicResource HomePage}"/>
+        <Button x:Name="buttonPopular" Content="Button" HorizontalAlignment="Left" Margin="10,64,0,150.183" Width="200" Height="44" VerticalAlignment="Top" Template="{DynamicResource ButtonPopularTemplate}"/>
+        <Button x:Name="buttonFavorite" Content="Button" Margin="10,118,0,0" VerticalAlignment="Top" Width="200" Height="44" HorizontalAlignment="Left" Template="{DynamicResource ButtonFavoriteTemplate}"/>
+        <Button x:Name="buttonChat" Content="Button" Margin="10,172,0,0" VerticalAlignment="Top" Width="200" Height="44" HorizontalAlignment="Left" Template="{DynamicResource ButtonChatTemplate}"/>
+        <Button x:Name="buttonMemes" Content="Button" HorizontalAlignment="Left" Margin="10,226,0,0" VerticalAlignment="Top" Width="200" Height="44" Template="{DynamicResource ButtonMemesTemplate}"/>
+        <Button x:Name="buttonSettings" Content="Button" HorizontalAlignment="Left" Margin="220,10,0,0" VerticalAlignment="Top" Width="200" Height="44" Template="{DynamicResource ButtonSettingsTemplate}"/>
     </Grid>
 </Window>

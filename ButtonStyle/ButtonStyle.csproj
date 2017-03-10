@@ -54,6 +54,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="BunnyButtonsStyle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -93,6 +97,37 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="CheckCircle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\Chat.png" />
+    <Resource Include="images\Fav.png" />
+    <Resource Include="images\HomePage.png" />
+    <Resource Include="images\Pop.png" />
+    <Resource Include="images\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\HomePageOver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\Popular.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\Favorite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\ImgurChat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\MemesOver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\Memes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\settingsOrig.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
