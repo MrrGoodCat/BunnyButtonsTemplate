@@ -13,5 +13,6 @@
         <Button x:Name="buttonChat" Content="Button" Margin="10,172,0,0" VerticalAlignment="Top" Width="200" Height="44" HorizontalAlignment="Left" Template="{DynamicResource ButtonChatTemplate}"/>
         <Button x:Name="buttonMemes" Content="Button" HorizontalAlignment="Left" Margin="10,226,0,0" VerticalAlignment="Top" Width="200" Height="44" Template="{DynamicResource ButtonMemesTemplate}"/>
         <Button x:Name="buttonSettings" Content="Button" HorizontalAlignment="Left" Margin="220,10,0,0" VerticalAlignment="Top" Width="200" Height="44" Template="{DynamicResource ButtonSettingsTemplate}"/>
+        <Button x:Name="UserButton" Content="Button" HorizontalAlignment="Left" Margin="220,64,0,0" VerticalAlignment="Top" Width="250" Height="44" Template="{DynamicResource ButtonUserTemplate}"/>
     </Grid>
 </Window>
