@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ButtonStyle"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="500" Width="800">
     <Grid>
         <Button x:Name="buttonHome" Content="Button" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="200" Height="44" Template="{DynamicResource HomePage}"/>
         <Button x:Name="buttonPopular" Content="Button" HorizontalAlignment="Left" Margin="10,64,0,150.183" Width="200" Height="44" VerticalAlignment="Top" Template="{DynamicResource ButtonPopularTemplate}"/>
@@ -14,5 +14,7 @@
         <Button x:Name="buttonMemes" Content="Button" HorizontalAlignment="Left" Margin="10,226,0,0" VerticalAlignment="Top" Width="200" Height="44" Template="{DynamicResource ButtonMemesTemplate}"/>
         <Button x:Name="buttonSettings" Content="Button" HorizontalAlignment="Left" Margin="220,10,0,0" VerticalAlignment="Top" Width="200" Height="44" Template="{DynamicResource ButtonSettingsTemplate}"/>
         <Button x:Name="UserButton" Content="Button" HorizontalAlignment="Left" Margin="220,64,0,0" VerticalAlignment="Top" Width="250" Height="44" Template="{DynamicResource ButtonUserTemplate}"/>
+        <Menu x:Name="menu" Height="44" Margin="220,118,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="250" Template="{DynamicResource MenuUserTemplate}"/>
+        <MenuItem Header="MenuItem" Margin="220,172,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="250" Height="44" Template="{DynamicResource MenuItemUserTemplate}"/>
     </Grid>
 </Window>
