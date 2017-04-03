@@ -16,5 +16,6 @@
         <Button x:Name="UserButton" Content="Button" HorizontalAlignment="Left" Margin="220,64,0,0" VerticalAlignment="Top" Width="250" Height="44" Template="{DynamicResource ButtonUserTemplate}"/>
         <Menu x:Name="menu" Height="44" Margin="220,118,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="250" Template="{DynamicResource MenuUserTemplate}"/>
         <MenuItem Header="MenuItem" Margin="220,172,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="250" Height="44" Template="{DynamicResource MenuItemUserTemplate}"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="220,226,0,221" TextWrapping="Wrap" Text="TextBox" Width="200" Height="44" Template="{DynamicResource TextBoxUserNameTemplate}"/>
     </Grid>
 </Window>

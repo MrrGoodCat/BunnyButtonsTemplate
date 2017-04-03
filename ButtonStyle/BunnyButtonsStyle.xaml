@@ -161,5 +161,8 @@
             </Trigger>
         </ControlTemplate.Triggers>
     </ControlTemplate>
+    <ControlTemplate x:Key="TextBoxUserNameTemplate" TargetType="{x:Type TextBox}">
+        <Grid Background="#FF0F3255" Height="44" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0"/>
+    </ControlTemplate>
 
 </ResourceDictionary>
